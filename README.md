@@ -20,3 +20,10 @@ During the EDA process, I will focus on:
 This step allows me to build a strong foundation before moving into deeper Feature Engineering techniques, such as feature creation, transformation, encoding categorical variables, and selecting the most useful features for modeling.
 
 Through this project, I aim to strengthen my understanding of Feature Engineering in both breadth and depth, using practical analysis on the housing price dataset to guide my learning process.
+
+## Step 1 — Load & First Look
+I imported the required libararies and datasets to perform data manipulation,visualization etc. I use hosing price prediction  in this Project
+ - Dataset : https://www.kaggle.com/datasets/muhammadbinimran/housing-price-prediction-data
+
+
+
