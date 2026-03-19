@@ -39,3 +39,14 @@ The df.hist(figsize=(12,10)) function creates a grid of histogram plots with an 
 <img width="804" height="674" alt="image" src="https://github.com/user-attachments/assets/a8cba75f-cce2-43cb-a2cc-126b299de2ea" />
 
 
+The sns.boxplot(x=df["Price"]) function displays the median, quartiles, and potential outliers in the data, making it useful for identifying spread and unusual values. The plt.show() command then renders the plot, making it easier to analyze data variability and detect anomalies during exploratory data analysis (EDA).
+
+
+<img width="434" height="347" alt="image" src="https://github.com/user-attachments/assets/692cec85-c35b-49c6-b103-d7d9aa535ab7" />
+
+-Most house prices fall roughly between 180,000 and 280,000.
+- The median price appears around 230,000.
+- There are outliers on both sides:
+- Very cheap houses near 0–50k
+- Very expensive houses around 450k–500k 
+
