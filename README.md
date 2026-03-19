@@ -25,5 +25,15 @@ Through this project, I aim to strengthen my understanding of Feature Engineerin
 I imported the required libararies and datasets to perform data manipulation,visualization etc. I use hosing price prediction  in this Project
  - Dataset : https://www.kaggle.com/datasets/muhammadbinimran/housing-price-prediction-data
 
+  - df.head() : used to print out five data variable from the dataset.
+
+    <img width="723" height="239" alt="image" src="https://github.com/user-attachments/assets/f9e6ea54-cecf-41e8-b97c-eb9b3b4255b7" />
+
+    - df.shape() : used to show no. of rows & columns in dataset.
+    - df.isnull().sum() : shows the no. of null values in dataset.
+      
+      <img width="251" height="140" alt="image" src="https://github.com/user-attachments/assets/605f885f-e420-43af-8576-099e7cc8ce77" />
+
+
 
 
