@@ -50,3 +50,14 @@ The sns.boxplot(x=df["Price"]) function displays the median, quartiles, and pote
 - Very cheap houses near 0–50k
 - Very expensive houses around 450k–500k 
 
+The numeric columns — SquareFeet, Bedrooms, Bathrooms, YearBuilt, and Price — are converted to numeric values using pd.to_numeric with errors="coerce", which replaces any invalid entries with NaN. The Neighborhood column is converted to a categorical type and stripped of any leading or trailing spaces to ensure consistency. Finally, print(df.dtypes) displays the updated data types of all columns, helping verify that the data is ready for analysis and modeling.
+
+<img width="239" height="131" alt="image" src="https://github.com/user-attachments/assets/5a5aeff4-c06b-4a21-b77b-20f8404728ae" />
+
+- print(df["Bedrooms"].value_counts()) shows the count of properties for each number of bedrooms, helping to understand the distribution of bedroom counts in the dataset.
+
+- print(df["YearBuilt"].min()) displays the oldest year a property was built,
+- while print(df["YearBuilt"].max()) shows the newest, giving a sense of the age range of properties in the dataset.
+- 
+  <img width="575" height="297" alt="image" src="https://github.com/user-attachments/assets/bd5c7b90-2508-4c46-a6ea-b7ae728551c7" />
+
