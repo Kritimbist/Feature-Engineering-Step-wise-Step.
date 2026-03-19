@@ -21,7 +21,7 @@ This step allows me to build a strong foundation before moving into deeper Featu
 
 Through this project, I aim to strengthen my understanding of Feature Engineering in both breadth and depth, using practical analysis on the housing price dataset to guide my learning process.
 
-## Step 1 — Load & First Look
+
 I imported the required libararies and datasets to perform data manipulation,visualization etc. I use hosing price prediction  in this Project
  - Dataset : https://www.kaggle.com/datasets/muhammadbinimran/housing-price-prediction-data
 
@@ -34,6 +34,8 @@ I imported the required libararies and datasets to perform data manipulation,vis
       
       <img width="251" height="140" alt="image" src="https://github.com/user-attachments/assets/605f885f-e420-43af-8576-099e7cc8ce77" />
 
+The df.hist(figsize=(12,10)) function creates a grid of histogram plots with an appropriate figure size for clarity, while plt.show() displays the output. This is commonly used during exploratory data analysis (EDA) to understand patterns, detect skewness, and identify potential outliers in the dataset.
 
+<img width="804" height="674" alt="image" src="https://github.com/user-attachments/assets/a8cba75f-cce2-43cb-a2cc-126b299de2ea" />
 
 
