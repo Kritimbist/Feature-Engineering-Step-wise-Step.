@@ -61,3 +61,8 @@ The numeric columns â€” SquareFeet, Bedrooms, Bathrooms, YearBuilt, and Price â€
 - 
   <img width="575" height="297" alt="image" src="https://github.com/user-attachments/assets/bd5c7b90-2508-4c46-a6ea-b7ae728551c7" />
 
+  The df["Bedrooms"].value_counts() function displays how many properties fall under each bedroom category, helping to understand the distribution. The df["YearBuilt"].min() and df["YearBuilt"].max() functions return the oldest and newest construction years in the dataset, giving insight into the range of property ages. Together, these help identify patterns and check for any unusual values in the data.
+  <img width="402" height="204" alt="image" src="https://github.com/user-attachments/assets/928b0d5e-8177-4ab9-86d4-54ef7fd4de87" />
+  
+
+
