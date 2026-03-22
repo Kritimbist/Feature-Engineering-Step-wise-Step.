@@ -68,4 +68,18 @@ The numeric columns — SquareFeet, Bedrooms, Bathrooms, YearBuilt, and Price �
   <img width="402" height="204" alt="image" src="https://github.com/user-attachments/assets/928b0d5e-8177-4ab9-86d4-54ef7fd4de87" />
   
 
+The sns.boxplot(x=df["Price"]) function highlights key statistics such as the median, quartiles, and potential outliers, making it easier to understand the spread and detect unusual price values. The plt.show() command then displays the plot, which is useful during exploratory data analysis (EDA) to identify variability and anomalies in property prices.
+
+<img width="526" height="427" alt="image" src="https://github.com/user-attachments/assets/b265f4f4-58e2-4eeb-aa34-8203d851c71e" />
+
+
+- Most house prices fall roughly between 180,000 and 280,000.
+
+- The median price appears around 230,000.
+
+- There are outliers on both sides:
+
+- Very cheap houses near 0–50k
+
+- Very expensive houses around 450k–500k
 
